@@ -1,13 +1,12 @@
 ---
 layout: post
 title: Proposta de TCC - Dashboard de analise de dados - BikeSP
-subtitle: There's lots to learn!
 comments: true
 mathjax: true
 author: Filipe tressmann
 ---
 
-[Link para o documento pdf com a proposta completa](assets/img/Proposta-TCC.pdf){:target="_blank"}
+[Link para o documento pdf com a proposta completa](../assets/img/Proposta-TCC.pdf){:target="_blank"}
 
 O projeto tem como objetivo desenvolver um **dashboard interativo** para visualização e análise dos dados coletados pelo aplicativo do **BikeSP**, um programa piloto que incentiva o uso de bicicletas em São Paulo.
 
