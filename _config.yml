@@ -54,13 +54,6 @@ social-network-links:
 # --- General options --- #
 ###########################
 
-share-links-active:
-  twitter: true
-  facebook: true
-  linkedin: true
-  vk: false
-  reddit: false
-
 # Add the website title to the title of every page
 title-on-all-pages: true
 
