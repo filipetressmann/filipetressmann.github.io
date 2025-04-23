@@ -44,7 +44,7 @@ if (ret) {
 
 Essa lógica foi extraída para uma função auxiliar, tornando o código mais limpo e reutilizável:
 
-```C
+```c
 static int  ads124s_read_channel(struct iio_dev *indio_dev, struct iio_chan_spec const *chan, int *val) {
        int ret = ads124s_write_reg(indio_dev, ADS124S08_INPUT_MUX, chan);
        if (ret) {
