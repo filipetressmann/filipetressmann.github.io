@@ -42,4 +42,36 @@ if (ret) {
 }
 ```
 
-Essa lógica foi extraída para uma função auxiliar, tornando o código mais limpo e reutilizável.
+Essa lógica foi extraída para uma função auxiliar, tornando o código mais limpo e reutilizável:
+
+```C
+static int  ads124s_read_channel(struct iio_dev *indio_dev, struct iio_chan_spec const *chan, int *val) {
+       int ret = ads124s_write_reg(indio_dev, ADS124S08_INPUT_MUX, chan);
+       if (ret) {
+               dev_err(&priv->spi->dev, "Set ADC CH failed\n");
+               return ret;
+       }
+       
+       ret = ads124s_write_cmd(indio_dev, ADS124S08_START_CONV);
+       if (ret) {
+               dev_err(&priv->spi->dev, "Start ADC conversions failed\n");
+               return ret;
+       }
+
+       ret = ads124s_read(indio_dev);
+       if (ret < 0) {
+               dev_err(&priv->spi->dev, "Read ADC failed\n");
+               return ret;
+       }
+
+       *val = ret;
+
+       ret = ads124s_write_cmd(indio_dev, ADS124S08_STOP_CONV);
+       if (ret) {
+               dev_err(&priv->spi->dev, "Stop conversions failed\n");
+               return ret;
+       }
+
+       return IIO_VAL_INT;
+}
+```
