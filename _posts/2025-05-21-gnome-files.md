@@ -21,3 +21,7 @@ Depois de entender como as *callbacks* se relacionavam, parti para a implementa�
 Com a implementação finalizada, o processo de envio da *Merge Request* (MR) foi relativamente simples: criei um *fork* do projeto, subi minhas alterações e segui os passos da interface do GitLab.
 
 Você pode conferir minha MR [aqui](https://gitlab.gnome.org/GNOME/nautilus/-/merge_requests/1752)
+
+pós receber o feedback inicial, enviei uma segunda revisão do meu patch. No entanto, um segundo mantenedor entrou na discussão e sugeriu algumas mudanças importantes na forma como as callbacks estavam sendo chamadas.
+
+Para minha surpresa, ele também notou que o bug que eu estava corrigindo afetava o recurso de "redo" e que a minha solução deveria abranger essa parte. Como implementar o suporte ao "redo" significaria duplicar o esforço de desenvolvimento, acabei despriorizando o envio de uma terceira revisão até o momento.

@@ -75,3 +75,7 @@ static int  ads124s_read_channel(struct iio_dev *indio_dev, struct iio_chan_spec
        return IIO_VAL_INT;
 }
 ```
+
+Após alguns dias, recebi o feedback do mantenedor do kernel. Ele identificou alguns problemas no patch, incluindo a remoção de um mutex que eu considerava redundante. Além disso, o mantenedor apontou outras questões no driver que poderíamos abordar na segunda revisão do patch.
+
+No entanto, devido à complexidade das mudanças sugeridas e à dificuldade em conciliar essa tarefa com outras atividades, optei por não enviar uma segunda revisão do patch naquele momento.
