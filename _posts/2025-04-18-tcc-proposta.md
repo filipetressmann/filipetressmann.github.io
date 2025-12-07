@@ -18,3 +18,5 @@ A solução será composta por duas etapas:
    - Gerar estatísticas sobre as viagens.
 
 O dashboard será de código aberto e contribuirá com iniciativas de mobilidade urbana e políticas públicas baseadas em dados.
+
+O painel pode ser encontrado aqui http://143.107.45.126:31000/bikesp
