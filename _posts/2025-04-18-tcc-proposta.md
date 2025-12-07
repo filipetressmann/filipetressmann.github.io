@@ -7,6 +7,8 @@ author: Filipe tressmann
 ---
 
 [Link para o documento pdf com a proposta completa](../assets/img/Proposta-TCC.pdf){:target="_blank"}
+[Link para o painel](http://143.107.45.126:31000/bikesp)
+[Link para o codigo](https://github.com/filipetressmann/tcc)
 
 O projeto tem como objetivo desenvolver um **dashboard interativo** para visualização e análise dos dados coletados pelo aplicativo do **BikeSP**, um programa piloto que incentiva o uso de bicicletas em São Paulo.
 
@@ -18,5 +20,3 @@ A solução será composta por duas etapas:
    - Gerar estatísticas sobre as viagens.
 
 O dashboard será de código aberto e contribuirá com iniciativas de mobilidade urbana e políticas públicas baseadas em dados.
-
-O painel pode ser encontrado aqui http://143.107.45.126:31000/bikesp
