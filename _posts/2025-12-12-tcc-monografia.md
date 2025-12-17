@@ -14,7 +14,7 @@ Com o intuito de enfrentar essas limitações, em 2023 o grupo de pesquisa INCT 
 
 Além de contribuir para a validação das viagens e a prevenção de fraudes, a plataforma implementada consolidou-se como uma fonte relevante de dados para a análise do perfil dos ciclistas e das condições de ciclomobilidade em São Paulo. Nesse contexto, este trabalho de formatura, desenvolvido no âmbito do projeto InterSCity, apresenta a implementação de um dashboard interativo para a análise dos dados coletados pela plataforma Bike SP. O dashboard foi concebido como software livre, com código-fonte integralmente disponibilizado ao público, e tem como objetivo apoiar tanto o aprimoramento do próprio programa Bike SP quanto o desenvolvimento de outras políticas e iniciativas voltadas à promoção da mobilidade urbana sustentável.
 
-[Link para o documento pdf com a proposta completa](../assets/img/monografia-filipe-tressmann.pdf){:target="_blank"}
+[Link para a monografia](../assets/img/monografia-filipe-tressmann.pdf){:target="_blank"}
 
 [Link para o painel](http://143.107.45.126:31000/bikesp){:target="_blank"}
 
